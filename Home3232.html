@@ -1,0 +1,206 @@
+<html>
+<head>
+    <title>Online Book Store</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-image: url('book2bg.avif');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        header {
+            background: aquamarine;
+            color: #ffffff;
+            padding: 20px;
+            text-align: left;
+        }
+
+        header ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        header ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h1, h2 {
+            margin-bottom: 20px;
+        }
+        .logo {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 80px; /* Adjust width as needed */
+        }
+        .book {
+            display: inline-block;
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+            width: 200px;
+            margin: 10px;
+        }
+
+        .book img {
+            max-width: 100%;
+            height: auto;
+        }
+        .company-name {
+            font-size: 2em;
+            position: absolute;
+            top: 20px;
+            right: 300px;
+            width: 40px;
+        }
+        .wishlist-icon {
+            position: fixed;
+            top: 20px;
+            right: 420px;
+        }
+        .wishlist-icon img {
+            width: 55px; /* Adjust width as needed */
+            height: auto;
+            display: block;
+        }
+        .wishlist-count {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background-color: white;
+            color: black; /* Cart color */
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .register{
+            margin-top: -4%;
+            margin-left: 35%;
+            width: 20%;
+            
+            padding: 20px;
+
+        }
+        .register *{
+            margin-bottom: 1%;
+        }
+        .register div input{
+            padding:3%;
+            width:30vw
+        }
+        .lang {
+            font-size: 1em;
+            color:black;
+            position: absolute;
+            top: 33px;
+            right: 495px;
+            width: 100px;
+        }
+   
+    </style>
+</head>
+
+<body>
+    
+    <header>
+        <div class="lang" align="right">
+            LANG> ENG         
+        </div>
+        <img class="logo" src="logo.avif" alt="Logo">
+        <div class="company-name" align="right">
+            GatoLibrary.com
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="login3232.html">Registration & Login</a></li>
+                <li><a href="#profile">User Profile</a></li>
+                <li><a href="bookcat1.html">Books Catalog</a></li>
+                <a href="#cart">Shopping Cart</a></li>
+                
+            </ul>
+        </nav>
+        <section class="register">
+            <div>
+                <input id="sear" type="text" placeholder="Search for Books..."/>
+            </div>
+        </section>
+    </header>
+    
+        <main>
+            <marquee behavior="scroll" direction="left">
+                <strong>Get 10% off on your first order! Limited time offer. Shop now!</strong>
+            </marquee>
+            <section class="hero">
+                <div class="container" align="center">
+                    <h1>Welcome to GatoLibrary</h1>
+                    <h2>Read What You Love. Love What You Read!! Find your next read here.</h2>
+                    <a href="#" class="btn">EXPLORE NOW</a>
+                </div>
+            </section>
+    
+            <section class="Best Sellers">
+                <div class="container">
+                    <h2>Best Sellers</h2>
+                    <div class="book-list">
+                        <div class="book">
+                            <a href="book-details.html">
+                                <img src="monk.jpg" alt="monk sold Ferrari">
+                                <h3>The Monk who sold his Ferrari</h3>
+                                <p>Robin Sharma</p>
+                                <p> Know more..</p>
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="book-details-alchemist.html">
+                                <img src="alc.jpg" alt="The Alchemist">
+                                <h3>The Alchemist</h3>
+                                <p>Paulo Coelho</p>
+                                <p> Know more..</p>
+                            </a>
+                        </div>
+        
+                        <div class="book">
+                            <a href="book-details-atomic-habits.html">
+                                <img src="atomichabits.jpg" alt="Atomic Habits">
+                                <h3>Atomic Habits</h3>
+                                <p>James Clear</p>
+                                <p> Know more..</p>
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="book-details-alchemist.html">
+                                <img src="atti.jpg" alt="Attitude is Everything">
+                                <h3>Attitude is Everything</h3>
+                                <p>Jeff Keller</p>
+                                <p> Know more..</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <div class="wishlist-icon">
+        <img src="wl.png" alt="wishlist">
+        <div class="wishlist-count">5</div>
+    </div>
+
+
+</body>
+
+</html>
