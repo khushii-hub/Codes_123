@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #2980b9;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .destination-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .destination-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .destination-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .destination-description {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tourism App</h1>
+    </header>
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="Destinations.html">Destinations</a>
+        <a href="Favorites.html">Favorites</a>
+        <a href="Profile.html">Profile</a>
+        <a href="AI Translator.html">AI Translator</a>
+        <a href="Services.html">Services</a>
+    </nav>
+    <div class="destination-card">
+        <img width="20%" class="destination-image" src="dest1.jpg" alt="Destination 1">
+        <h2 class="destination-title">Destination 1</h2>
+        <input placeholder="Enter Destination1"/>
+        <p class="destination-description">Explore the beautiful landscapes and culture of Destination 1.</p>
+    </div>
+    <div class="destination-card">
+        <img width="20%" class="destination-image" src="dest2.jpg" alt="Destination 2">
+        <h2 class="destination-title">Destination 2</h2>
+        <input placeholder="Enter Destination2"/>
+        <p class="destination-description">Discover the hidden gems of Destination 2.</p>
+    </div>
+    
+</body>
+</html>
