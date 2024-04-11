@@ -1,0 +1,23 @@
+<html>
+
+<body>
+   <h2>Using the <i> Regular expression </i> to validate email in JavaScript </h2>
+   <div id = "output"> </div>
+   <input type="email" id = "emailInput" placeholder ="abc@gmail.com">
+   <br><br>
+   <button onclick = "submitEmail()"> Validate input email </button>
+   <script>
+      var output = document.getElementById('output');
+      function submitEmail() {
+         let userEmail = document.getElementById('emailInput').value;
+         let regex = new RegExp(/\S+@\S+\.\S+/);
+         let isValid = regex.test(userEmail);
+         if (isValid) {
+            output.innerHTML = "The " + userEmail + " is a valid email address!";
+         } else {
+            output.innerHTML = "The " + userEmail + " is not a valid email address!";
+         }
+      }
+   </script>
+</body>
+</html>
