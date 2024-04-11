@@ -1,0 +1,46 @@
+
+        body{
+            margin: 0%;
+            background-image: url(book2bg.avif);
+            background-repeat: no-repeat;
+            background-position:  center;
+            background-size: cover;
+        }
+        .navigation a{
+            text-decoration: none ;
+            font-size: 2.6rem;
+            color:white;
+        }
+        .navigation{
+            background:#a0d6d6 ;
+            display: flex;
+            justify-content: space-around;
+        }
+        .pay{
+            background-image: url('card.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width:30%;
+            border-radius: 10px;
+            text-align: center;
+            margin: auto;
+            margin-top: 10%;
+            padding: 5%;
+        }
+        .pay div{
+            margin:2%;
+        }
+        .pay input{
+            padding: 2%;
+            width: 25vw;
+        }
+        
+        .btn{
+            background-color: #a0d6d6;
+            padding: 3%;
+            width: 10vw;
+            border: none;
+            cursor: pointer;
+            color: white;
+        }
+    
